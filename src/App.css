@@ -1,38 +1,304 @@
-.App {
+.mainBody {
+  /* background-color: red !important; */
+
+  height: 100vh;
+}
+.mainDiv {
+}
+.mainContainer {
+  background-color: white !important;
+}
+.Row1 {
+}
+.resultMainCol {
+  margin-top: 4% !important;
+  background-color: #004a4d;
+  border-radius: 20px;
+  margin-bottom: 2%;
+  /* width: 90% !important; */
+}
+.col1 {
+}
+.col2 {
+  background-color: #004a4d;
+}
+.rowforbill {
+}
+.firstBillRow {
+  margin-top: 10% !important;
+}
+.TipRow {
+  margin-top: 8% !important;
+}
+.tipRowsfirst {
+  margin-top: 2% !important;
+  margin-bottom: 4% !important;
+}
+.TipRowsecond {
+}
+.NumberOfPeopleRow {
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+}
+
+.abc1 {
+}
+.myTipbtns {
+  padding-left: 40% !important;
+  padding-right: 40% !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  background-color: #03484f !important;
+}
+.submitBtn {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  margin-bottom: 20px;
+  background-color: #03484f !important;
+}
+.customBtn {
+  width: 100%;
+  background-color: white !important;
+  color: #7f9191 !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  border: 1px solid #03484f !important;
+  color: #03484f !important;
+}
+.tipAmountTotal {
+  color: #bae4e4;
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: 600;
+}
+.TipAmountTotalNumber {
+  color: #31baa8;
+  font-size: 40px !important;
+  font-weight: 600 !important;
+}
+.resetBtn {
+  padding-left: 20% !important;
+
+  padding-right: 20% !important;
+  background-color: #0e676d !important;
+  color: #93c4c4 !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+.resultportionfirstRow {
+  margin-top: 10% !important;
+}
+.resetRow {
+  margin-top: 10% !important;
+}
+.perperson {
+  font-size: small;
+}
+
+.mybtn {
+  background-color: #02494e !important;
+  width: 100% !important;
+  margin: 2px !important;
+  align-content: center !important;
+  align-items: center !important;
+  padding: 5px !important;
+  font-family: monospace !important;
+  font-weight: 600;
+  border: none !important;
+  font-size: 1.6rem !important;
+}
+.mybtn:hover {
+  color: black !important;
+  background-color: azure !important;
+  box-shadow: 3px 3px 3px 3px rgba(64, 69, 63, 0.2) !important;
+}
+.mybtn:active {
+  color: rgb(247, 243, 243) !important;
+  background-color: #02494e !important;
+  box-shadow: 3px 3px 3px 3px rgba(64, 69, 63, 0.2) !important;
+}
+.mybtn:focus {
+  color: black !important;
+  background-color: azure !important;
+  box-shadow: 3px 3px 3px 3px rgba(64, 69, 63, 0.2) !important;
+}
+.Custmbtn:hover {
+  font-family: monospace !important;
+  font-weight: 600;
+  color: black !important;
+  background-color: azure !important;
+  box-shadow: 3px 3px 3px 3px rgba(64, 69, 63, 0.2) !important;
+}
+.Custmbtn {
+  border: none !important;
+  font-family: monospace !important;
+
+  background-color: #abd8db !important;
+  width: 100% !important;
+  margin: 2px !important;
+  align-content: center !important;
+  align-items: center !important;
+  padding: 5px !important;
+
+  color: #485557 !important;
+  font-weight: 600 !important;
+
+  font-size: 1.6rem !important;
+}
+.nump {
+  margin-top: 10px !important;
+  position: relative;
+  top: 17px;
+}
+
+.fontStyle {
+  font-size: 25px;
+  font-family: monospace;
+  font-weight: 600;
+  color: #004a4d;
+}
+.customInputFeild {
+  padding: 10px !important;
+  padding-left: 20px !important;
+}
+.customValueBtn {
+  background-color: #02494e !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+.customValueBtn:hover {
+  color: black !important;
+  background-color: azure !important;
+  box-shadow: 3px 3px 3px 3px rgba(64, 69, 63, 0.2) !important;
+}
+.card {
+  margin-top: 20px !important;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #004a4d;
+  margin: 0 auto;
+  display: flex;
+  background-color: red;
+  width: 84% !important;
   text-align: center;
 }
+/* @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+nput::placeholder {
+  text-align: right;
+}
+.BillInput {
+  background-color: #ddf2f8 !important;
+  font-family: "Lora", serif;
+}
+.Col {
+  border: 1px solid black;
+}
+.mainBody {
+  padding: 25px;
+  background-color: white;
+  border-radius: 25px;
+}
+.section1 {
+  border-radius: 25px !important;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  margin-right: 4px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section2 {
+  background-color: #02494e !important;
+  color: rgb(245, 245, 245);
+  border-radius: 25px !important;
+}
+.body {
+  background-color: #c5e4e9;
+  height: 100vh;
+}
+.mybtn {
+  background-color: #02494e !important;
+  width: 100% !important;
+  margin: 2px !important;
+  align-content: center !important;
+  align-items: center !important;
+  padding: 5px !important;
+  font-family: "Lora", serif;
+  border: none !important;
+  font-size: 1.1rem !important;
+}
+.mybtn:hover {
+  color: black !important;
+  background-color: azure !important;
+  box-shadow: 3px 3px 3px 3px rgba(64, 69, 63, 0.2) !important;
+}
+.Custmbtn:hover {
+  color: black !important;
+  background-color: azure !important;
+  box-shadow: 3px 3px 3px 3px rgba(64, 69, 63, 0.2) !important;
+}
+.Custmbtn {
+  border: none !important;
+
+  background-color: #abd8db !important;
+  width: 100% !important;
+  margin: 2px !important;
+  align-content: center !important;
+  align-items: center !important;
+  padding: 5px !important;
+  font-family: "Lora", serif;
+  color: #485557 !important;
+  font-weight: 600 !important;
+
+  font-size: 1.1rem !important;
+}
+.Rbtn {
+  background-color: #16666d !important;
+  color: #02494e !important;
+  border: none !important;
+
+  font-family: "Lora", serif;
+
+  position: relative;
+  top: 6rem;
+  padding: 10px !important;
+
+  width: 76% !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Rbtn:hover {
+  color: rgb(49, 45, 45) !important;
+  box-shadow: #0cee17 !important;
+  background-color: #daeef0 !important;
+}
+.sec2ROw {
+  padding-top: 20px !important;
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.main {
+  text-align: center;
+  letter-spacing: 5px !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #16666d;
+  font-family: "Lora", serif;
+}
+.font {
+  font-family: "Lora", serif;
+}
+p,
+h1 {
+  font-family: "Lora", serif;
 }
 
-.App-link {
-  color: #61dafb;
+.sec2text {
+  width: 10rem;
+  color: #ffffffe3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.nump {
+  margin-top: 10px !important;
+  position: relative;
+  top: 17px;
+} */
